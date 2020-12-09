@@ -1,0 +1,67 @@
+
+
+<div class="container">
+  
+  
+    <div class="row">
+   
+        <div class="card" id="header">
+          <header>
+            <h1>Welcome to File Processing</h1>
+        </header>
+        </div>
+        
+
+      
+        <div class="col">
+            <div class="card" id="leftside" >
+                <div class="card-body">
+                  <h5 class="card-title">Gets Results Quickly</h5>
+                  <br>
+                  
+                  <br>
+                  <div class="row">
+                    <div class="col">
+                        <img src="assets/img/cloud1.png" alt="Automation">
+                        <br>
+                        <br>
+                        <h6> Drop your sales and expenses and it will generate a statement every week</h6>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                            <div class="card-header" id="match">
+                              <div class="newtext">
+                                Welcome to File Processing
+                              </div>
+                              
+                            </div>
+                            <div class="card-body">
+                              
+                           
+                              <label for="businessId">Business ID: </label>
+                              <input #id type="number" name="businessId" id="businessId">
+                              <br>
+                              <label for="location">Location: </label>
+                              <input #location type="text" name="location" id="location">
+                              <br>
+
+                              <button type="button" class="btn btn-outline-primary" (click)="signIn(id.value, location.value)">Sign in</button>
+        
+                            </div>
+                            <div class="card-footer" id="match">
+                              <div class="newtext">
+                                Don't have an account? <a href="">Sign up here</a>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  
+                 
+                </div>
+              </div>
+        </div>
+    </div>
+    
+</div>

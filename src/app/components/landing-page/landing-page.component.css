@@ -1,0 +1,65 @@
+#leftside{
+    height: auto;
+}
+
+img{
+    width: 90%;
+    height: 65%;
+}
+
+
+#leftside{
+    /* background-color: #A0ACBD; */
+    background-color:  #87919E;
+    height: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.card{
+    /* background-color: lightblue !important;  */
+    background-color:  #87919E; 
+ 
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+
+}
+
+#header{
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#match{
+    background-color: #353a40;
+    color: white;
+}
+
+label {
+    /* Other styling... */
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+
+.newtext{
+    text-align: center;
+}
+button{
+    justify-content: flex-end;
+}
+
+h6{
+    color: white;
+}
+.card-title{
+    color: white;
+}
+
+
+
